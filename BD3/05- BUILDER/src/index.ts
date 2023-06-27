@@ -20,5 +20,5 @@ console.log("Tipo do sanduiche: " + hotdog.sandwichType);
 console.log("Numero de proteinas (carnes): " + hotdog.protein);
 console.log("Pão: " + hotdog.bread);
 console.log("Numero de saladas: " + hotdog.salad);
-console.log("Molhos: " + hotdog.sauce);
+console.log("Molhos: " + hotdog.sauce.lenght);
 console.log("----------------------------------------------------------------");
