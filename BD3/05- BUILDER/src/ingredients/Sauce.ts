@@ -1,12 +1,12 @@
 export default class Sauce{
 
-    constructor(private _flavor: string){}
+    constructor(private _flavor: String){}
 
-    get flavor() : string{
+    get flavor() : String{
         return this._flavor;
     }
 
-    set flavor(flavor: string){
+    set flavor(flavor: String){
         this._flavor = flavor;
     }
 }
