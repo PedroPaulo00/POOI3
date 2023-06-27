@@ -1,11 +1,11 @@
 export default class Bread{
-    constructor(private _type : string){}
+    constructor(private _type : String){}
 
-    get type() : string{
+    get type() : String{
         return this._type;
     }
 
-    set type(type : string){
+    set type(type : String){
         this._type = type;
     }
 }
